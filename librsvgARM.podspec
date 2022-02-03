@@ -95,6 +95,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries = "lib/*.dylib"
   s.preserve_paths = "headers/**.h"
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => "${PODS_ROOT}/#{s.name}/headers/**" }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS' => 'x86_64' }
 
   # s.public_header_files = "headers/**/*.h"
   
