@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint librsvg.podspec' to ensure this is a
+#  Be sure to run `pod spec lint librsvgARM.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "librsvg"
-  s.version      = "0.0.6"
+  s.name         = "librsvgARM"
+  s.version      = "0.0.1"
   s.summary      = "Static libraries"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  Provides librsvg libraries
+  Provides librsvgARM libraries
                    DESC
 
   s.homepage     = "http://EXAMPLE/librsvg"
@@ -53,10 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "Pavel Malay" => "flagmansupport@gmail.com" }
-  # Or just: s.author    = "Pavel Malay"
-  # s.authors            = { "Pavel Malay" => "flagmansupport@gmail.com" }
-  # s.social_media_url   = "http://twitter.com/Pavel Malay"
+  s.author             = { "Mikhail Goodzikevich" => "manylattice7742@yandex.kz" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,7 +61,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :osx, "10.13"
+  s.platform     = :osx, "11.0"
 
   # s.platform     = :ios, "5.0"
 
@@ -81,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/flagman/librsvg.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ManyLattice/librsvgARM.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
