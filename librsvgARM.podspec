@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "librsvgARM"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Static libraries"
 
   # This description is used to generate tags and improve search results.
@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  s.platform     = :osx, "11.0"
+  s.platform     = :osx, "10.15"
 
   # s.platform     = :ios, "5.0"
 
