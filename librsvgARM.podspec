@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   Provides librsvgARM libraries
                    DESC
 
-  s.homepage     = "http://EXAMPLE/librsvgARM"
+  s.homepage     = "https://github.com/ManyLattice/librsvgARM.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
